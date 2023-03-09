@@ -4,8 +4,7 @@ export const TableLine = styled.tr``;
 
 export const TableColumn = styled.td`
     padding: 10px 0;
-    color: white;
-
+  
 `;
 
 export const Category = styled.div<{color: string}> `

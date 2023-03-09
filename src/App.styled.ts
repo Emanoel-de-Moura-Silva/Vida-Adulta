@@ -1,11 +1,19 @@
 import styled from "styled-components";
+import background from './Background.jpg'
 
-export const Container = styled.div``;
+
+export const Container = styled.div`
+    background-image: url(${background})
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+`;
 
 export const Header = styled.div`
-    background-color: black;
+    background-color: #121214;
     height: 150px;
     text-align: center;
+    border-radius: 30px;
 `;
 
 export const HeaderText = styled.h1`
@@ -15,4 +23,7 @@ export const HeaderText = styled.h1`
     padding-top: 30px;
 `;
 
-export const Body = styled.div``;
+export const Body = styled.div`
+    
+   
+`;
