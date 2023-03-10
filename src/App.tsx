@@ -27,7 +27,7 @@ export const App = () => {
       if(categories[filteredList[i].category].expense){
         expenseCount += filteredList[i].value;
       }else {
-        incomeCount =+ filteredList[i].value;
+        incomeCount += filteredList[i].value;
       }
     }
     setIncome(incomeCount);
